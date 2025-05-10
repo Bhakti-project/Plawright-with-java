@@ -1,0 +1,254 @@
+2025-04-23 11:57:15,295 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 11:58:16,612 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 11:59:35,142 [main] INFO : Before click on Product LInk 
+2025-04-23 12:05:56,408 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 12:07:22,627 [main] INFO : Before click on Product LInk 
+2025-04-23 13:33:25,664 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 15:28:08,870 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 15:30:24,463 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 15:54:05,265 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 15:54:36,382 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 15:54:43,515 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 15:56:01,882 [main] INFO : Before click on Product LInk 
+2025-04-23 16:22:15,768 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 16:46:34,583 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 17:38:07,666 [main] INFO : product is not remove
+2025-04-23 18:31:02,605 [main] INFO : product is not remove
+2025-04-23 18:34:22,430 [main] INFO : product is not remove
+2025-04-23 18:36:20,524 [main] INFO : product is not remove
+2025-04-23 18:42:38,899 [main] INFO : product is not remove
+2025-04-23 18:47:46,705 [main] ERROR: product is not removeYour cart is empty!but got Cart is empty!: 
+2025-04-23 18:52:01,457 [main] ERROR: product NOt remove:Your cart is empty!BUt got actual Cart is empty!
+2025-04-23 18:53:10,457 [main] ERROR: product NOt remove:Your Cart is empty!BUt got actual Cart is empty!
+2025-04-23 18:53:52,781 [main] INFO : Product successfulyy remove: 
+2025-04-23 18:54:58,651 [main] INFO : Product successfulyy remove: 
+2025-04-23 21:27:05,044 [main] INFO : Login successful
+2025-04-23 21:27:05,046 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 21:27:48,887 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-04-23 21:33:10,443 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-04-23 21:33:10,446 [main] INFO : Done LOgin successfully and print logger
+2025-04-23 21:37:42,559 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-04-23 21:41:04,456 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-04-23 21:41:04,458 [main] ERROR: Login failed: [Ljava.lang.StackTraceElement;@3d3f761a
+2025-04-24 11:51:00,383 [main] INFO : User is Move to the Bottom
+2025-04-24 11:51:00,391 [main] INFO : User is Move to the Top
+2025-04-24 14:45:56,975 [main] INFO : Working on product page
+2025-04-24 14:46:32,497 [main] INFO : Working on product page
+2025-04-24 14:48:16,511 [main] INFO : Working on product page
+2025-04-24 14:51:37,046 [main] INFO : Product successfulyy remove: 
+2025-04-24 15:01:10,751 [main] INFO : Working on product page
+2025-04-24 15:09:50,996 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-04-24 15:09:50,998 [main] ERROR: Login failed: [Ljava.lang.StackTraceElement;@63ec445c
+2025-04-24 15:11:07,435 [main] INFO : Before click on Product LInk 
+2025-04-24 15:11:33,324 [main] INFO : Product successfulyy remove: 
+2025-04-24 15:11:39,682 [main] INFO : User is Move to the Bottom
+2025-04-24 15:11:39,686 [main] INFO : User is Move to the Top
+2025-04-24 15:13:32,800 [main] INFO : User is Move to the Bottom
+2025-04-24 15:13:32,811 [main] INFO : User is Move to the Top
+2025-04-24 15:18:52,724 [main] INFO : Login successful
+2025-04-24 15:18:52,729 [main] INFO : Done LOgin successfully and print logger
+2025-04-24 16:48:43,832 [main] INFO : User is Move to the Bottom
+2025-04-24 16:48:43,841 [main] INFO : User is Move to the Top
+2025-04-24 16:51:10,875 [main] INFO : User is Move to the Bottom
+2025-04-24 16:51:10,885 [main] INFO : User is Move to the Top
+2025-04-28 09:47:30,260 [main] INFO : Login successful
+2025-04-28 09:47:30,266 [main] INFO : Done LOgin successfully and print logger
+2025-04-28 09:48:49,213 [main] INFO : Before click on Product LInk 
+2025-04-28 09:49:18,134 [main] INFO : Product successfulyy remove: 
+2025-04-28 09:49:26,777 [main] INFO : User is Move to the Bottom
+2025-04-28 09:49:26,791 [main] INFO : User is Move to the Top
+2025-04-28 12:59:02,047 [main] INFO : Before click on Product LInk 
+2025-04-28 16:22:20,850 [main] INFO : Before click on Product LInk 
+2025-04-29 09:58:30,473 [main] INFO : Before click on Product LInk 
+2025-04-29 16:51:36,217 [main] INFO : Login successful
+2025-04-29 16:51:36,223 [main] INFO : Done LOgin successfully and print logger
+2025-04-29 16:52:27,741 [main] INFO : Before click on Product LInk 
+2025-04-29 16:53:30,851 [main] INFO : Product successfulyy remove: 
+2025-04-29 16:53:38,399 [main] INFO : User is Move to the Bottom
+2025-04-29 16:53:38,411 [main] INFO : User is Move to the Top
+2025-05-01 15:28:04,807 [main] INFO : Login successful
+2025-05-01 15:28:04,816 [main] INFO : Done LOgin successfully and print logger
+2025-05-01 15:29:27,982 [main] INFO : Before click on Product LInk 
+2025-05-01 15:31:25,208 [main] INFO : User is Move to the Bottom
+2025-05-01 15:31:25,221 [main] INFO : User is Move to the Top
+2025-05-01 16:38:25,846 [main] INFO : Product successfulyy remove: 
+2025-05-01 16:39:06,571 [main] INFO : Login successful
+2025-05-01 16:39:06,578 [main] INFO : Done LOgin successfully and print logger
+2025-05-01 16:39:29,637 [main] INFO : Before click on Product LInk 
+2025-05-01 16:40:42,217 [main] INFO : Product successfulyy remove: 
+2025-05-01 16:40:52,179 [main] INFO : User is Move to the Bottom
+2025-05-01 16:40:52,190 [main] INFO : User is Move to the Top
+2025-05-02 11:29:12,779 [main] INFO : Login successful
+2025-05-02 11:29:12,786 [main] INFO : Done LOgin successfully and print logger
+2025-05-02 15:02:49,771 [main] INFO : Login successful
+2025-05-02 15:02:49,783 [main] INFO : Done LOgin successfully and print logger
+2025-05-04 10:52:11,724 [main] INFO : Login successful
+2025-05-04 10:52:11,730 [main] INFO : Done LOgin successfully and print logger
+2025-05-04 10:52:56,202 [main] INFO : Before click on Product LInk 
+2025-05-04 10:54:18,231 [main] INFO : Product successfulyy remove: 
+2025-05-04 10:54:35,796 [main] INFO : User is Move to the Bottom
+2025-05-04 10:54:35,804 [main] INFO : User is Move to the Top
+2025-05-06 09:53:41,018 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-05-06 09:53:41,020 [main] ERROR: Login failed: [Ljava.lang.StackTraceElement;@6818d900
+2025-05-06 09:55:52,024 [main] INFO : Login successful
+2025-05-06 09:55:52,031 [main] INFO : Done LOgin successfully and print logger
+2025-05-06 17:38:13,549 [main] INFO : Login successful
+2025-05-06 17:38:13,556 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 10:33:24,845 [main] INFO : Login successful
+2025-05-08 10:33:24,850 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 10:35:08,710 [main] INFO : Login successful
+2025-05-08 10:35:08,716 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 10:35:31,329 [main] INFO : Before click on Product LInk 
+2025-05-08 10:36:35,116 [main] INFO : Product successfulyy remove: 
+2025-05-08 10:36:42,288 [main] INFO : User is Move to the Bottom
+2025-05-08 10:36:42,303 [main] INFO : User is Move to the Top
+2025-05-08 11:22:39,896 [main] INFO : Login successful
+2025-05-08 11:22:39,902 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 11:23:00,263 [main] INFO : Before click on Product LInk 
+2025-05-08 11:23:52,743 [main] INFO : Product successfulyy remove: 
+2025-05-08 11:23:59,247 [main] INFO : User is Move to the Bottom
+2025-05-08 11:23:59,259 [main] INFO : User is Move to the Top
+2025-05-08 11:26:27,298 [main] INFO : Login successful
+2025-05-08 11:26:27,302 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 11:26:50,034 [main] INFO : Before click on Product LInk 
+2025-05-08 11:28:42,472 [main] INFO : User is Move to the Bottom
+2025-05-08 11:28:42,482 [main] INFO : User is Move to the Top
+2025-05-08 11:36:18,126 [main] INFO : Login successful
+2025-05-08 11:36:18,133 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 11:37:36,342 [main] INFO : Before click on Product LInk 
+2025-05-08 11:38:51,642 [main] INFO : Product successfulyy remove: 
+2025-05-08 11:38:59,000 [main] INFO : User is Move to the Bottom
+2025-05-08 11:38:59,008 [main] INFO : User is Move to the Top
+2025-05-08 12:18:50,210 [main] INFO : Login successful
+2025-05-08 12:18:50,215 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 12:19:25,346 [main] INFO : Before click on Product LInk 
+2025-05-08 12:20:57,313 [main] INFO : Product successfulyy remove: 
+2025-05-08 12:21:04,976 [main] INFO : User is Move to the Bottom
+2025-05-08 12:21:04,987 [main] INFO : User is Move to the Top
+2025-05-08 12:58:41,853 [main] INFO : Login successful
+2025-05-08 12:58:41,859 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 12:59:11,455 [main] INFO : Before click on Product LInk 
+2025-05-08 13:00:27,982 [main] INFO : Product successfulyy remove: 
+2025-05-08 13:00:35,479 [main] INFO : User is Move to the Bottom
+2025-05-08 13:00:35,487 [main] INFO : User is Move to the Top
+2025-05-08 14:13:20,521 [main] INFO : Login successful
+2025-05-08 14:13:20,526 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 14:14:09,360 [main] INFO : Before click on Product LInk 
+2025-05-08 14:15:52,219 [main] INFO : Product successfulyy remove: 
+2025-05-08 14:18:56,073 [main] INFO : Login successful
+2025-05-08 14:18:56,078 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 14:19:25,575 [main] INFO : Before click on Product LInk 
+2025-05-08 14:21:01,967 [main] INFO : Product successfulyy remove: 
+2025-05-08 14:21:10,133 [main] INFO : User is Move to the Bottom
+2025-05-08 14:21:10,142 [main] INFO : User is Move to the Top
+2025-05-08 14:24:33,902 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-05-08 14:24:33,906 [main] ERROR: Login failed: [Ljava.lang.StackTraceElement;@2c708440
+2025-05-08 14:26:40,945 [main] INFO : Login successful
+2025-05-08 14:26:40,950 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 14:27:32,548 [main] INFO : Before click on Product LInk 
+2025-05-08 14:28:44,797 [main] INFO : Product successfulyy remove: 
+2025-05-08 14:28:51,882 [main] INFO : User is Move to the Bottom
+2025-05-08 14:28:51,891 [main] INFO : User is Move to the Top
+2025-05-08 14:30:07,776 [main] INFO : Login successful
+2025-05-08 14:30:07,785 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 14:30:35,341 [main] INFO : Before click on Product LInk 
+2025-05-08 14:31:47,162 [main] INFO : Product successfulyy remove: 
+2025-05-08 14:31:54,498 [main] INFO : User is Move to the Bottom
+2025-05-08 14:31:54,509 [main] INFO : User is Move to the Top
+2025-05-08 14:39:35,233 [main] INFO : Login successful
+2025-05-08 14:39:35,238 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 14:39:56,637 [main] INFO : Before click on Product LInk 
+2025-05-08 14:41:11,126 [main] INFO : Product successfulyy remove: 
+2025-05-08 14:41:18,150 [main] INFO : User is Move to the Bottom
+2025-05-08 14:41:18,159 [main] INFO : User is Move to the Top
+2025-05-08 15:21:13,462 [main] INFO : Login successful
+2025-05-08 15:21:13,467 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 15:21:33,868 [main] INFO : Before click on Product LInk 
+2025-05-08 15:23:07,860 [main] INFO : Product successfulyy remove: 
+2025-05-08 15:23:15,114 [main] INFO : User is Move to the Bottom
+2025-05-08 15:23:15,126 [main] INFO : User is Move to the Top
+2025-05-08 15:33:36,923 [main] INFO : Before click on Product LInk 
+2025-05-08 15:34:39,904 [main] INFO : Before click on Product LInk 
+2025-05-08 15:36:08,040 [main] INFO : Before click on Product LInk 
+2025-05-08 15:46:31,096 [main] INFO : Before click on Product LInk 
+2025-05-08 15:49:38,501 [main] INFO : Login successful
+2025-05-08 15:49:38,507 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 15:50:00,756 [main] INFO : Before click on Product LInk 
+2025-05-08 15:51:08,193 [main] INFO : Product successfulyy remove: 
+2025-05-08 15:51:14,990 [main] INFO : User is Move to the Bottom
+2025-05-08 15:51:14,999 [main] INFO : User is Move to the Top
+2025-05-08 16:06:26,939 [main] INFO : Before click on Product LInk 
+2025-05-08 16:07:45,013 [main] INFO : Before click on Product LInk 
+2025-05-08 16:08:47,488 [main] INFO : Before click on Product LInk 
+2025-05-08 16:10:17,725 [main] INFO : Before click on Product LInk 
+2025-05-08 16:11:15,533 [main] INFO : Before click on Product LInk 
+2025-05-08 16:12:35,419 [main] INFO : Before click on Product LInk 
+2025-05-08 16:48:06,140 [main] INFO : Before click on Product LInk 
+2025-05-08 16:49:57,366 [main] INFO : Before click on Product LInk 
+2025-05-08 16:51:17,488 [main] INFO : Login successful
+2025-05-08 16:51:17,493 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 16:51:40,664 [main] INFO : Before click on Product LInk 
+2025-05-08 16:52:44,483 [main] INFO : Before click on Product LInk 
+2025-05-08 16:56:16,122 [main] INFO : Login successful
+2025-05-08 16:56:16,127 [main] INFO : Done LOgin successfully and print logger
+2025-05-08 16:56:39,622 [main] INFO : Before click on Product LInk 
+2025-05-08 16:57:47,284 [main] INFO : Product successfulyy remove: 
+2025-05-08 16:57:53,959 [main] INFO : User is Move to the Bottom
+2025-05-08 16:57:53,967 [main] INFO : User is Move to the Top
+2025-05-09 10:41:30,359 [main] INFO : Login successful
+2025-05-09 10:41:30,364 [main] INFO : Done LOgin successfully and print logger
+2025-05-09 10:42:20,174 [main] INFO : Before click on Product LInk 
+2025-05-09 10:43:14,034 [main] INFO : Product successfulyy remove: 
+2025-05-09 10:43:21,129 [main] INFO : User is Move to the Bottom
+2025-05-09 10:43:21,140 [main] INFO : User is Move to the Top
+2025-05-09 10:46:40,873 [main] INFO : Login successful
+2025-05-09 10:46:40,878 [main] INFO : Done LOgin successfully and print logger
+2025-05-09 10:47:02,757 [main] INFO : Before click on Product LInk 
+2025-05-09 10:47:56,396 [main] INFO : Product successfulyy remove: 
+2025-05-09 10:48:04,898 [main] INFO : User is Move to the Bottom
+2025-05-09 10:48:04,908 [main] INFO : User is Move to the Top
+2025-05-09 10:49:24,860 [main] INFO : Login successful
+2025-05-09 10:49:24,865 [main] INFO : Done LOgin successfully and print logger
+2025-05-09 10:49:49,070 [main] INFO : Before click on Product LInk 
+2025-05-09 10:50:50,556 [main] INFO : Product successfulyy remove: 
+2025-05-09 10:50:57,632 [main] INFO : User is Move to the Bottom
+2025-05-09 10:50:57,643 [main] INFO : User is Move to the Top
+2025-05-09 16:07:39,243 [main] INFO : Login successful
+2025-05-09 16:07:39,247 [main] INFO : Done LOgin successfully and print logger
+2025-05-09 16:08:01,198 [main] INFO : Before click on Product LInk 
+2025-05-09 16:08:54,143 [main] INFO : Product successfulyy remove: 
+2025-05-09 16:09:22,446 [main] INFO : User is Move to the Bottom
+2025-05-09 16:09:22,459 [main] INFO : User is Move to the Top
+2025-05-09 17:05:02,417 [main] INFO : Login successful
+2025-05-09 17:05:02,423 [main] INFO : Done LOgin successfully and print logger
+2025-05-09 17:05:29,135 [main] INFO : Before click on Product LInk 
+2025-05-09 17:06:28,389 [main] INFO : Product successfulyy remove: 
+2025-05-09 17:06:38,254 [main] INFO : User is Move to the Bottom
+2025-05-09 17:06:38,263 [main] INFO : User is Move to the Top
+2025-05-09 17:15:45,703 [main] INFO : Login successful
+2025-05-09 17:15:45,710 [main] INFO : Done LOgin successfully and print logger
+2025-05-09 17:16:13,215 [main] INFO : Before click on Product LInk 
+2025-05-09 17:17:11,694 [main] INFO : Product successfulyy remove: 
+2025-05-09 17:17:20,257 [main] INFO : User is Move to the Bottom
+2025-05-09 17:17:20,267 [main] INFO : User is Move to the Top
+2025-05-10 09:26:53,467 [main] INFO : Login successful
+2025-05-10 09:26:53,474 [main] INFO : Done LOgin successfully and print logger
+2025-05-10 09:27:41,886 [main] INFO : Before click on Product LInk 
+2025-05-10 10:04:27,365 [main] INFO : Login successful
+2025-05-10 10:04:27,370 [main] INFO : Done LOgin successfully and print logger
+2025-05-10 10:04:49,030 [main] INFO : Before click on Product LInk 
+2025-05-10 10:05:45,162 [main] INFO : Product successfulyy remove: 
+2025-05-10 10:05:51,807 [main] INFO : User is Move to the Bottom
+2025-05-10 10:05:51,820 [main] INFO : User is Move to the Top
+2025-05-10 10:12:24,829 [main] INFO : Login successful
+2025-05-10 10:12:24,836 [main] INFO : Done LOgin successfully and print logger
+2025-05-10 10:13:06,925 [main] INFO : Before click on Product LInk 
+2025-05-10 10:14:02,385 [main] INFO : Product successfulyy remove: 
+2025-05-10 10:14:08,853 [main] INFO : User is Move to the Bottom
+2025-05-10 10:14:08,863 [main] INFO : User is Move to the Top
+2025-05-10 10:24:24,787 [main] INFO : Login successful
+2025-05-10 10:24:24,800 [main] INFO : Done LOgin successfully and print logger
+2025-05-10 10:24:46,724 [main] INFO : Before click on Product LInk 
+2025-05-10 10:25:46,884 [main] INFO : Product successfulyy remove: 
+2025-05-10 10:25:53,211 [main] INFO : User is Move to the Bottom
+2025-05-10 10:25:53,222 [main] INFO : User is Move to the Top
