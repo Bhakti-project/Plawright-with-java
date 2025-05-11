@@ -252,3 +252,9 @@
 2025-05-10 10:25:46,884 [main] INFO : Product successfulyy remove: 
 2025-05-10 10:25:53,211 [main] INFO : User is Move to the Bottom
 2025-05-10 10:25:53,222 [main] INFO : User is Move to the Top
+2025-05-11 10:29:18,237 [main] INFO : Login successful
+2025-05-11 10:29:18,244 [main] INFO : Done LOgin successfully and print logger
+2025-05-11 10:29:48,515 [main] INFO : Before click on Product LInk 
+2025-05-11 10:30:53,369 [main] INFO : Product successfulyy remove: 
+2025-05-11 10:30:59,728 [main] INFO : User is Move to the Bottom
+2025-05-11 10:30:59,738 [main] INFO : User is Move to the Top
