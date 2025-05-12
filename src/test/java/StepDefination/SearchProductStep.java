@@ -1,6 +1,8 @@
 package StepDefination;
 
-import static org.junit.Assert.assertTrue;
+
+
+
 
 import com.microsoft.playwright.Page;
 
@@ -9,6 +11,9 @@ import Pages.SerchProductPapge;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Assertions;
 
 public class SearchProductStep {
 
@@ -37,7 +42,8 @@ public class SearchProductStep {
 
 	@Then("products related to {string} should be visible as {string}")
 	public void products_related_to_should_be_visible(String keyword, String expectedProductName) {
-		assertTrue("No matching search results found.", serchproductpage.areSearchResultsVisible(expectedProductName));
+		
+	Assertions.assertTrue(serchproductpage.areSearchResultsVisible(expectedProductName));
 	}
 
 	@Given("user is on the Products page")

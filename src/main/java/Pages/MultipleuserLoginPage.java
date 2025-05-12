@@ -1,9 +1,10 @@
 package Pages;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
-import com.microsoft.playwright.Locator;
+
+import static org.junit.Assert.assertEquals;
+
+
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 
@@ -20,7 +21,7 @@ public class MultipleuserLoginPage {
 	}
 
 	public void slecttheSignINOption() {
-		
+
 		page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName(" Signup / Login")).click();
 
 	}
@@ -33,15 +34,15 @@ public class MultipleuserLoginPage {
 
 	public void selectTheLogInOption() {
 		page.click("//form[@action='/login']//button[@type='submit']");
-		//String p = page.title();
-		//System.out.println("Title is:"+p);
+		// String p = page.title();
+		// System.out.println("Title is:"+p);
 
 	}
 
 	public void UserIsHomePage() {
 
 		String p = page.title();
-		System.out.println("Title is:"+p);
+		System.out.println("Title is:" + p);
 		String expectedTitle = "Automation Exercise";
 		assertEquals(expectedTitle, p);
 

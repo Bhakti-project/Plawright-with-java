@@ -258,3 +258,61 @@
 2025-05-11 10:30:53,369 [main] INFO : Product successfulyy remove: 
 2025-05-11 10:30:59,728 [main] INFO : User is Move to the Bottom
 2025-05-11 10:30:59,738 [main] INFO : User is Move to the Top
+2025-05-11 18:31:39,227 [main] INFO : Login successful
+2025-05-11 18:31:39,234 [main] INFO : Done LOgin successfully and print logger
+2025-05-11 18:32:00,107 [main] INFO : Before click on Product LInk 
+2025-05-11 18:32:56,005 [main] INFO : Product successfulyy remove: 
+2025-05-11 18:33:02,961 [main] INFO : User is Move to the Bottom
+2025-05-11 18:33:02,970 [main] INFO : User is Move to the Top
+2025-05-11 18:51:47,962 [main] ERROR: Login failed: Login failed for user: Bhaktitest@gmail.com
+2025-05-11 18:51:47,967 [main] ERROR: Login failed: [Ljava.lang.StackTraceElement;@64138b0c
+2025-05-11 18:52:09,203 [main] INFO : Before click on Product LInk 
+2025-05-11 18:53:04,298 [main] INFO : Login successful
+2025-05-11 18:53:04,304 [main] INFO : Done LOgin successfully and print logger
+2025-05-11 18:53:25,151 [main] INFO : Before click on Product LInk 
+2025-05-11 18:54:51,994 [main] INFO : Login successful
+2025-05-11 18:54:52,001 [main] INFO : Done LOgin successfully and print logger
+2025-05-11 18:55:12,882 [main] INFO : Before click on Product LInk 
+2025-05-11 19:29:40,000 [main] INFO : Login successful
+2025-05-11 19:29:40,006 [main] INFO : Done LOgin successfully and print logger
+2025-05-11 19:30:01,325 [main] INFO : Before click on Product LInk 
+2025-05-11 19:34:23,139 [main] INFO : Login successful
+2025-05-11 19:34:23,144 [main] INFO : Done LOgin successfully and print logger
+2025-05-11 19:39:14,112 [main] INFO : Product successfulyy remove: 
+2025-05-11 23:29:57,223 [main] INFO : Product successfulyy remove: 
+2025-05-11 23:38:57,976 [main] INFO : Product successfulyy remove: 
+2025-05-12 09:36:35,398 [main] INFO : Product successfulyy remove: 
+2025-05-12 09:38:11,768 [main] INFO : Before click on Product LInk 
+2025-05-12 09:39:09,607 [main] INFO : Product successfulyy remove: 
+2025-05-12 09:39:20,375 [main] INFO : User is Move to the Bottom
+2025-05-12 09:39:20,396 [main] INFO : User is Move to the Top
+2025-05-12 10:04:45,387 [main] INFO : Login successful
+2025-05-12 10:04:45,394 [main] INFO : Done LOgin successfully and print logger
+2025-05-12 10:05:04,080 [main] INFO : Before click on Product LInk 
+2025-05-12 10:05:54,110 [main] INFO : Product successfulyy remove: 
+2025-05-12 10:05:59,523 [main] INFO : User is Move to the Bottom
+2025-05-12 10:05:59,531 [main] INFO : User is Move to the Top
+2025-05-12 10:18:46,349 [main] INFO : Login successful
+2025-05-12 10:18:46,356 [main] INFO : Done LOgin successfully and print logger
+2025-05-12 10:19:04,520 [main] INFO : Before click on Product LInk 
+2025-05-12 10:19:53,943 [main] INFO : Product successfulyy remove: 
+2025-05-12 10:19:59,674 [main] INFO : User is Move to the Bottom
+2025-05-12 10:19:59,684 [main] INFO : User is Move to the Top
+2025-05-12 10:31:36,967 [main] INFO : Login successful
+2025-05-12 10:31:36,973 [main] INFO : Done LOgin successfully and print logger
+2025-05-12 10:32:23,638 [main] INFO : Product successfulyy remove: 
+2025-05-12 10:36:28,411 [main] INFO : Before click on Product LInk 
+2025-05-12 10:36:38,717 [main] INFO : Product successfulyy remove: 
+2025-05-12 10:36:44,239 [main] INFO : User is Move to the Bottom
+2025-05-12 10:36:44,257 [main] INFO : User is Move to the Top
+2025-05-12 12:10:54,176 [main] INFO : Login successful
+2025-05-12 12:10:54,182 [main] INFO : Done LOgin successfully and print logger
+2025-05-12 12:11:39,146 [main] INFO : Product successfulyy remove: 
+2025-05-12 12:14:20,767 [main] INFO : Login successful
+2025-05-12 12:14:20,773 [main] INFO : Done LOgin successfully and print logger
+2025-05-12 14:43:02,994 [main] INFO : Login successful
+2025-05-12 14:43:02,999 [main] INFO : Done LOgin successfully and print logger
+2025-05-12 14:43:21,532 [main] INFO : Before click on Product LInk 
+2025-05-12 14:44:18,005 [main] INFO : User is Move to the Bottom
+2025-05-12 14:44:18,014 [main] INFO : User is Move to the Top
+2025-05-12 14:44:41,360 [main] INFO : Product successfulyy remove: 

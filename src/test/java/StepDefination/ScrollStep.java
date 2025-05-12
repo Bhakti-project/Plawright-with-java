@@ -2,7 +2,7 @@ package StepDefination;
 
 
 
-import static org.junit.Assert.*;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.apache.logging.log4j.LogManager;
