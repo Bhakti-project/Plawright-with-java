@@ -47,6 +47,7 @@ public class ScrollStep {
 	public void user_should_see_the_top_of_the_page() {
 	    assertTrue(scrollpage.page_isOnTop());
 	    logger.info("User is Move to the Top");
+	    System.out.println("Scroll Done");
 	    
 	}
 

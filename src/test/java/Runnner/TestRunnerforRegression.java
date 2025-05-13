@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/Features", glue = { "StepDefination", "Hooks" },
-tags= "@Regression", plugin = { "pretty","html:target/report.html" }, monochrome = true, dryRun = false)
+tags= "@Regression", plugin = { "pretty","html:target/Regressionreport.html" }, monochrome = true, dryRun = false)
 public class TestRunnerforRegression {
 
 }
