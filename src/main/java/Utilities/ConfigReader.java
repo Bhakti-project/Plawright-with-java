@@ -17,17 +17,19 @@ public class ConfigReader {
 		catch(IOException e)
 		{
 			e.printStackTrace();
-			
 		}
 	}
 	
+	public void urlCheck() {
+		// code to check url
+	}
 	
 	public static String get(String Key)
 	{
 		 if (properties == null) {
 	            loadProperties();
 	        }
-	        return properties.getProperty(Key);
+	        return (properties!=null)?properties.getProperty(Key):"";
 		
 	}
 }
