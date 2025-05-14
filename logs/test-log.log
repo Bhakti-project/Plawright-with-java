@@ -427,3 +427,95 @@
 2025-05-14 10:04:34,767 [main] ERROR: URl not find
 2025-05-14 10:08:14,862 [main] ERROR: URl not find
 2025-05-14 10:08:40,326 [main] ERROR: URl not find
+2025-05-14 10:50:50,300 [main] ERROR: URl not find
+2025-05-14 10:50:50,364 [main] ERROR: URl not find
+2025-05-14 10:50:50,396 [main] ERROR: URl not find
+2025-05-14 10:50:50,416 [main] ERROR: URl not find
+2025-05-14 10:50:50,440 [main] ERROR: URl not find
+2025-05-14 10:50:50,442 [main] INFO : Before click on Product LInk 
+2025-05-14 10:50:50,455 [main] ERROR: URl not find
+2025-05-14 10:50:50,470 [main] ERROR: URl not find
+2025-05-14 10:50:50,484 [main] ERROR: URl not find
+2025-05-14 10:50:50,495 [main] ERROR: URl not find
+2025-05-14 10:50:50,514 [main] ERROR: URl not find
+2025-05-14 10:50:50,529 [main] ERROR: URl not find
+2025-05-14 10:50:50,541 [main] ERROR: URl not find
+2025-05-14 10:50:50,553 [main] ERROR: URl not find
+2025-05-14 10:51:05,882 [main] ERROR: URl not find
+2025-05-14 10:51:05,924 [main] ERROR: URl not find
+2025-05-14 10:51:05,952 [main] ERROR: URl not find
+2025-05-14 10:51:05,969 [main] ERROR: URl not find
+2025-05-14 10:51:05,994 [main] ERROR: URl not find
+2025-05-14 10:51:05,995 [main] INFO : Before click on Product LInk 
+2025-05-14 10:51:06,012 [main] ERROR: URl not find
+2025-05-14 10:51:06,031 [main] ERROR: URl not find
+2025-05-14 10:51:06,044 [main] ERROR: URl not find
+2025-05-14 10:51:06,058 [main] ERROR: URl not find
+2025-05-14 10:51:06,074 [main] ERROR: URl not find
+2025-05-14 10:51:06,089 [main] ERROR: URl not find
+2025-05-14 10:51:06,101 [main] ERROR: URl not find
+2025-05-14 10:51:06,115 [main] ERROR: URl not find
+2025-05-14 11:18:51,834 [main] INFO : Login successful
+2025-05-14 11:18:51,842 [main] INFO : Done LOgin successfully and print logger
+2025-05-14 11:51:41,273 [main] ERROR: URl not find
+2025-05-14 12:16:30,686 [main] ERROR: URl not find
+2025-05-14 12:17:32,887 [main] ERROR: URl not find
+2025-05-14 12:17:54,729 [main] ERROR: URl not find
+2025-05-14 12:40:07,186 [main] ERROR: URl not find
+2025-05-14 15:15:02,244 [main] ERROR: URl not find
+2025-05-14 15:29:46,097 [main] ERROR: URl not find
+2025-05-14 16:03:09,459 [main] INFO : ✅ Base URL loaded: https://www.automationexercise.com/
+2025-05-14 16:04:06,967 [main] ERROR: ❌ Base URL is not configured or is empty.
+2025-05-14 16:13:22,668 [main] ERROR: File is not able to read
+java.io.FileNotFoundException: src\test\resources\confi.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at Utilities.ConfigReader.loadProperties(ConfigReader.java:19)
+	at Utilities.ConfigReader.get(ConfigReader.java:32)
+	at StepDefination.Hooks.checkBaseUrl(Hooks.java:24)
+	at StepDefination.Hooks.setup(Hooks.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:132)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:253)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:114)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:115)
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:84)
+	at io.cucumber.core.runtime.Runtime.execute(Runtime.java:99)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:82)
+	at io.cucumber.core.cli.Main.run(Main.java:87)
+	at cucumber.api.cli.Main.run(Main.java:30)
+	at cucumber.api.cli.Main.main(Main.java:15)
+2025-05-14 16:19:37,431 [main] ERROR: URl not find

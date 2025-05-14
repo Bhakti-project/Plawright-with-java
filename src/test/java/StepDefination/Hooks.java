@@ -12,18 +12,14 @@ import Exception.LoginFailedException;
 import Utilities.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 
 public class Hooks {
 
 	String url = ConfigReader.get("baseurl");
 	private static final Logger logger = LogManager.getLogger(Hooks.class);
-
-///*	public String test() {
-//		//.url..4
-//		return ".."; url="";
-//	}*/
-
+	
 	@Before
 	public void setup() {
 
@@ -35,11 +31,9 @@ public class Hooks {
 			
 			// System.out.println("URL is not configured or unable to read the url.");
 			
-				logger.error("URl not find");
-				
-
-			//System.err.println("URl is Empty so stop execution");
-				System.exit(0);
+				logger.error("URl not find"+url);
+				System.err.println("URl is Empty so stop execution");
+				//System.exit(0);
 		}
 	}
 
