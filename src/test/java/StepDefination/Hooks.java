@@ -34,10 +34,11 @@ public class Hooks {
 			
 			
 			// System.out.println("URL is not configured or unable to read the url.");
+			
 				logger.error("URl not find");
 				
 
-			System.err.println("URl is Empty so stop execution");
+			//System.err.println("URl is Empty so stop execution");
 				System.exit(0);
 		}
 	}
