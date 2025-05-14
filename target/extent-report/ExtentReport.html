@@ -1,0 +1,1664 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 14, 2025 10:04:33 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Smoke</a><a class="dropdown-item" href="#">@Regression</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User Registration</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:362</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User Registration</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:362</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Successful account registration</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.RegisterSteps.user_is_on_registration_page()">
+                <span>Given user is on registration page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.click(String)" because "this.page" is null
+	at Pages.RegisterPage.openSignupPage(RegisterPage.java:14)
+	at StepDefination.RegisterSteps.user_is_on_registration_page(RegisterSteps.java:19)
+	at ✽.user is on registration page(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/01_register1.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RegisterSteps.user_enters_name_and_email(java.lang.String,java.lang.String)">
+                <span>When user enters name "New Data" and email "newdata@gmail.com"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RegisterSteps.fills_out_registration_details()">
+                <span>And fills out all required registration details</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RegisterSteps.registration_should_be_successful(java.lang.String)">
+                <span>Then registration should be successful with message "Account Created!"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User Login</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:009</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User Login</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:009</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>Login with valid credentials</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.LoginSteps.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.getByRole(com.microsoft.playwright.options.AriaRole, com.microsoft.playwright.Page$GetByRoleOptions)" because "this.page" is null
+	at Pages.LoginPage.openLoginPage(LoginPage.java:24)
+	at StepDefination.LoginSteps.user_is_on_login_page(LoginSteps.java:26)
+	at ✽.user is on login page(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/02_Login3.feature:7)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.LoginSteps.user_enters_valid_credentials()">
+                <span>When user enters valid credentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.LoginSteps.user_should_be_logged_in_successfully()">
+                <span>Then user should be logged in successfully</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login the Apllication with multiple user</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:029</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login the Apllication with multiple user</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:029</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="17"><span class="badge log fail-bg mr-2">Fail</span>Login the Application with multiple credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="18"><span class="badge log fail-bg mr-2">Fail</span>Login the Application with multiple credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And User clicks on SignIN button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.getByRole(com.microsoft.playwright.options.AriaRole, com.microsoft.playwright.Page$GetByRoleOptions)" because "this.page" is null
+	at Pages.MultipleuserLoginPage.slecttheSignINOption(MultipleuserLoginPage.java:25)
+	at StepDefination.MultipleUserLOginStep.user_clicks_on_sign_in_button(MultipleUserLOginStep.java:23)
+	at ✽.User clicks on SignIN button(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/03_MultiUserLOgin.feature:7)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User enters the email as "Bhaktitest@gmail.com" and password as "Bhakti@Test"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User clicks on Login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user should navigate to home page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="26"><span class="badge log fail-bg mr-2">Fail</span>Login the Application with multiple credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And User clicks on SignIN button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.getByRole(com.microsoft.playwright.options.AriaRole, com.microsoft.playwright.Page$GetByRoleOptions)" because "this.page" is null
+	at Pages.MultipleuserLoginPage.slecttheSignINOption(MultipleuserLoginPage.java:25)
+	at StepDefination.MultipleUserLOginStep.user_clicks_on_sign_in_button(MultipleUserLOginStep.java:23)
+	at ✽.User clicks on SignIN button(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/03_MultiUserLOgin.feature:7)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User enters the email as "uniqueuser1234341@gmail.com" and password as "check123@123"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User clicks on Login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user should navigate to home page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Products and Product Detail</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:036</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify Products and Product Detail</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:036</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log fail-bg mr-2">Fail</span>User can view products and their detail</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.ProductStep.user_clicks_on_products_link()">
+                <span>When user clicks on Products link</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.click(String)" because "this.page" is null
+	at Pages.ProductPage.clickLinkByText(ProductPage.java:23)
+	at StepDefination.ProductStep.user_clicks_on_products_link(ProductStep.java:34)
+	at ✽.user clicks on Products link(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/04_ProductDeatils.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ProductStep.user_should_see_the_products_list()">
+                <span>Then user should see the products list</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ProductStep.user_clicks_on_of_the_first_item(java.lang.String)">
+                <span>When user clicks on "View Product" of the first item</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ProductStep.user_should_see_the_product_detail_page_with_title(java.lang.String)">
+                <span>Then user should see the product detail page with title "Blue Top"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="42"><span class="badge log fail-bg mr-2">Fail</span>Find and add T-Shirts and Tops products to cart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.ProductStep.user_navigate_to_the_products_page()">
+                <span>Given user navigate to the Products page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.click(String)" because "this.page" is null
+	at Pages.ProductPage.clickLinkByText(ProductPage.java:23)
+	at StepDefination.ProductStep.user_navigate_to_the_products_page(ProductStep.java:58)
+	at ✽.user navigate to the Products page(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/04_ProductDeatils.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ProductStep.user_filter_products_as_and(java.lang.String,java.lang.String)">
+                <span>When user filter products as "Top" and "Tshirt"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ProductStep.user_add_all_filtered_products_in_to_the_cart()">
+                <span>And user naviagte to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ProductStep.user_should_see_all_selected_products_added_in_to_the_cart(java.lang.String,java.lang.String)">
+                <span>Then user should see "Top" and "Tshirt" products added in to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="49"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Product Search</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:029</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Product Search</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:029</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="50"><span class="badge log fail-bg mr-2">Fail</span>User can search for a product by name</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.SearchProductStep.user_is_on_the_home_page()">
+                <span>Given user is on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.SearchProductStep.user_clicks_on()">
+                <span>When user clicks on products link</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.click(String)" because "this.page" is null
+	at Pages.SerchProductPapge.clickonbyProductLink(SerchProductPapge.java:20)
+	at StepDefination.SearchProductStep.user_clicks_on(SearchProductStep.java:35)
+	at ✽.user clicks on products link(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/05_SearchedProduct.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.SearchProductStep.user_searches_for_product(java.lang.String)">
+                <span>And user searches for product "Tshirt"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.SearchProductStep.products_related_to_should_be_visible(java.lang.String,java.lang.String)">
+                <span>Then products related to "Tshirt" should be visible as "Searched Products"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log fail-bg mr-2">Fail</span>Count and print all products on the Products page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.SearchProductStep.user_is_on_the_products_page()">
+                <span>Given user is on the Products page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.navigate(String)" because "this.page" is null
+	at Pages.SerchProductPapge.clickonURL(SerchProductPapge.java:15)
+	at StepDefination.SearchProductStep.user_is_on_the_products_page(SearchProductStep.java:51)
+	at ✽.user is on the Products page(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/05_SearchedProduct.feature:11)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.SearchProductStep.all_product_names_should_be_printed_with_total_count()">
+                <span>Then all product names should be printed with total count</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="62"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add the Product to cart</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:033</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add the Product to cart</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=62</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="63"><span class="badge log fail-bg mr-2">Fail</span>User add the product to the Cart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.AddProductCArtStep.user_is_on_home_page()">
+                <span>Given User is on HomePage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.AddProductCArtStep.user_click_on_product_link()">
+                <span>When User click on product link</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.waitForSelector(String)" because "this.page" is null
+	at Pages.AddCartPage.click_On_TheProductslink(AddCartPage.java:15)
+	at StepDefination.AddProductCArtStep.user_click_on_product_link(AddProductCArtStep.java:27)
+	at ✽.User click on product link(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/06_AddProducttocart.feature:8)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.AddProductCArtStep.user_add_the_first_product_in_to_the_cart()">
+                <span>And User Add the first product in to the Cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.AddProductCArtStep.user_navigate_to_the_cart()">
+                <span>And User navigate to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.AddProductCArtStep.product_should_be_visiable_in_the_cart()">
+                <span>Then product should be visiable in the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="71"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add a product review</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:006</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add a product review</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=71</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="72"><span class="badge log fail-bg mr-2">Fail</span>Submit a product review successfully</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.AddReviewStep.user_on_the_product_details_page()">
+                <span>Given user on the product details page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.waitForSelector(String)" because "this.page" is null
+	at Pages.AddReviewPage.click_ON_ViewProduct(AddReviewPage.java:23)
+	at StepDefination.AddReviewStep.user_on_the_product_details_page(AddReviewStep.java:22)
+	at ✽.user on the product details page(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/07_AddReview.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.AddReviewStep.user_add_review_with_name_email_and_review(java.lang.String,java.lang.String,java.lang.String)">
+                <span>When user add review with name "John Doe", email "john@example.com", and review "Great product!"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.AddReviewStep.the_review_should_be_submitted_successfully()">
+                <span>Then The review should be submitted successfully</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.AddReviewStep.review_added_message_should_display()">
+                <span>And Review added message should display</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="79"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Product Page scroll functinality</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:006</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Product Page scroll functinality</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=79</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="80"><span class="badge log fail-bg mr-2">Fail</span>scroll to the bottom again scroll to the top</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.ScrollStep.user_is_on_product_page()">
+                <span>Given user is on Product page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.click(String)" because "this.page" is null
+	at Pages.ScrollPage.user_Click_OnProductLink(ScrollPage.java:20)
+	at StepDefination.ScrollStep.user_is_on_product_page(ScrollStep.java:27)
+	at ✽.user is on Product page(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/08_Scroll.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ScrollStep.user_scroll_to_the_bottom()">
+                <span>When user scroll to the bottom</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ScrollStep.user_should_see_the_bottom_of_the_page()">
+                <span>Then user should see the bottom of the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ScrollStep.again_user_scroll_to_the_top()">
+                <span>When Again user scroll to the Top</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.ScrollStep.user_should_see_the_top_of_the_page()">
+                <span>Then user should see the Top of the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="88"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Cart functionality</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:010</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Cart functionality</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:010</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=88</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log fail-bg mr-2">Fail</span>Add multiple products and remove one specific product</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.RemoveproductOneStep.user_is_on_the_product_listing_page()">
+                <span>Given user is on the product listing page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.waitForSelector(String)" because "this.page" is null
+	at Pages.RemoveOneProductPage.click_OnProductOption(RemoveOneProductPage.java:32)
+	at StepDefination.RemoveproductOneStep.user_is_on_the_product_listing_page(RemoveproductOneStep.java:27)
+	at ✽.user is on the product listing page(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/09_RemoveOneProduct.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RemoveproductOneStep.user_adds_multiple_products_to_the_cart()">
+                <span>When user adds multiple products to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RemoveproductOneStep.user_navigates_to_the_cart_page()">
+                <span>And user navigates to the cart page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RemoveproductOneStep.user_removes_the_product_named(java.lang.String)">
+                <span>And user removes the product named "Blue Top"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RemoveproductOneStep.the_cart_should_not_contain_the_product()">
+                <span>Then the cart should not contain the product</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="97"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Remove the product from Cart</p>
+            <p class="text-sm">
+              <span>10:04:34 am</span> / <span>00:00:00:009</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Remove the product from Cart</h5>
+<span class='badge badge-success'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-danger'>05.14.2025 10:04:34 am</span>
+<span class='badge badge-default'>00:00:00:009</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=97</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="98"><span class="badge log fail-bg mr-2">Fail</span>Remove a product from the cart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefination.RemoveProductStep.i_have_added_a_product_to_the_cart()">
+                <span>Given I have added a product to the cart</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.click(String)" because "this.page" is null
+	at Pages.RemoveProductPage.add_Product_Cart(RemoveProductPage.java:29)
+	at StepDefination.RemoveProductStep.i_have_added_a_product_to_the_cart(RemoveProductStep.java:17)
+	at ✽.I have added a product to the cart(file:///D:/Eclipse%20Bhakti/KaniniCucumberFinal2/src/test/resources/Features/10_RemoveProduct.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RemoveProductStep.i_navigate_to_the_cart_page()">
+                <span>When I navigate to the cart page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RemoveProductStep.i_remove_the_product_from_the_cart()">
+                <span>And I remove the product from the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.RemoveProductStep.the_cart_should_be_empty_and_should_see_a_message(java.lang.String)">
+                <span>Then The cart should be empty and should see a message "Cart is empty!"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because the return value of "Base.BaseTest.getPage()" is null
+	at StepDefination.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>26</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">26 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>26 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='4'>Given user is on registration page</a>
+<div class="">
+<span class="badge badge-default">User Registration.Successful account registration.Given user is on registration page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">User Registration.Successful account registration.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='12'>Given user is on login page</a>
+<div class="">
+<span class="badge badge-default">User Login.Login with valid credentials.Given user is on login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='15'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">User Login.Login with valid credentials.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='21'>And User clicks on SignIN button</a>
+<div class="">
+<span class="badge badge-default">Login the Apllication with multiple user.Login the Application with multiple credentials.And User clicks on SignIN button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='25'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Login the Apllication with multiple user.Login the Application with multiple credentials.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='29'>And User clicks on SignIN button</a>
+<div class="">
+<span class="badge badge-default">Login the Apllication with multiple user.Login the Application with multiple credentials.And User clicks on SignIN button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='33'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Login the Apllication with multiple user.Login the Application with multiple credentials.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='37'>When user clicks on Products link</a>
+<div class="">
+<span class="badge badge-default">Verify Products and Product Detail.User can view products and their detail.When user clicks on Products link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='41'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Verify Products and Product Detail.User can view products and their detail.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='44'>Given user navigate to the Products page</a>
+<div class="">
+<span class="badge badge-default">Verify Products and Product Detail.Find and add T-Shirts and Tops products to cart.Given user navigate to the Products page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='48'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Verify Products and Product Detail.Find and add T-Shirts and Tops products to cart.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='49' id='53'>When user clicks on products link</a>
+<div class="">
+<span class="badge badge-default">Product Search.User can search for a product by name.When user clicks on products link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='49' id='56'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Product Search.User can search for a product by name.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='49' id='59'>Given user is on the Products page</a>
+<div class="">
+<span class="badge badge-default">Product Search.Count and print all products on the Products page.Given user is on the Products page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='49' id='61'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Product Search.Count and print all products on the Products page.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='62' id='66'>When User click on product link</a>
+<div class="">
+<span class="badge badge-default">Add the Product to cart.User add the product to the Cart.When User click on product link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='62' id='70'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Add the Product to cart.User add the product to the Cart.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='71' id='74'>Given user on the product details page</a>
+<div class="">
+<span class="badge badge-default">Add a product review.Submit a product review successfully.Given user on the product details page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='71' id='78'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Add a product review.Submit a product review successfully.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='79' id='82'>Given user is on Product page</a>
+<div class="">
+<span class="badge badge-default">Product Page scroll functinality.scroll to the bottom again scroll to the top.Given user is on Product page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='79' id='87'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Product Page scroll functinality.scroll to the bottom again scroll to the top.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='88' id='91'>Given user is on the product listing page</a>
+<div class="">
+<span class="badge badge-default">Cart functionality.Add multiple products and remove one specific product.Given user is on the product listing page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='88' id='96'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Cart functionality.Add multiple products and remove one specific product.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='97' id='100'>Given I have added a product to the cart</a>
+<div class="">
+<span class="badge badge-default">Remove the product from Cart.Remove a product from the cart.Given I have added a product to the cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='97' id='104'>StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Remove the product from Cart.Remove a product from the cart.StepDefination.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@Smoke</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Smoke</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Successful account registration</a>
+<div class="">
+<span class="badge badge-default">User Registration.Successful account registration</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='35'>User can view products and their detail</a>
+<div class="">
+<span class="badge badge-default">Verify Products and Product Detail.User can view products and their detail</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='79' id='80'>scroll to the bottom again scroll to the top</a>
+<div class="">
+<span class="badge badge-default">Product Page scroll functinality.scroll to the bottom again scroll to the top</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='97' id='98'>Remove a product from the cart</a>
+<div class="">
+<span class="badge badge-default">Remove the product from Cart.Remove a product from the cart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">@Regression</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Regression</h4>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='10'>Login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">User Login.Login with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='18'>Login the Application with multiple credentials</a>
+<div class="">
+<span class="badge badge-default">Login the Apllication with multiple user.Login the Application with multiple credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='26'>Login the Application with multiple credentials</a>
+<div class="">
+<span class="badge badge-default">Login the Apllication with multiple user.Login the Application with multiple credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='42'>Find and add T-Shirts and Tops products to cart</a>
+<div class="">
+<span class="badge badge-default">Verify Products and Product Detail.Find and add T-Shirts and Tops products to cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='62' id='63'>User add the product to the Cart</a>
+<div class="">
+<span class="badge badge-default">Add the Product to cart.User add the product to the Cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='71' id='72'>Submit a product review successfully</a>
+<div class="">
+<span class="badge badge-default">Add a product review.Submit a product review successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:34 am</td>
+<td>
+<a href="#" class="linked" test-id='97' id='98'>Remove a product from the cart</a>
+<div class="">
+<span class="badge badge-default">Remove the product from Cart.Remove a product from the cart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 14, 2025 10:04:33 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 14, 2025 10:04:34 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>10</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>10</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>13</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='5%'><b>4</b> steps passed</small></div>
+<div>
+<small data-tooltip='38%'><b>26</b> steps failed,
+<b>37</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"User Registration":0.362,"User Login":0.009,"Login the Apllication with multiple user":0.029,"Verify Products and Product Detail":0.036,"Product Search":0.029,"Add the Product to cart":0.033,"Add a product review":0.006,"Product Page scroll functinality":0.006,"Cart functionality":0.01,"Remove the product from Cart":0.009
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Smoke</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Regression</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 10,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 13,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 4,
+failGrandChild: 26,
+warningGrandChild: 0,
+skipGrandChild: 37,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

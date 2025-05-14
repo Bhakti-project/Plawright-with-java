@@ -64,6 +64,33 @@
 			<version>5.11.4</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- All Extent Report Cucumber Adapter -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.1</version>
+		</dependency>
+
+		<!-- Extent Report Cucumber Adapter -->
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber6-adapter</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+
+		<!-- Other required dependencies (already in your project likely) -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.11.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>7.11.2</version>
+		</dependency>
+
 	</dependencies>
 
 </project>

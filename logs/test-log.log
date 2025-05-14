@@ -353,3 +353,77 @@
 2025-05-13 14:53:48,638 [main] INFO : Before click on Product LInk 
 2025-05-13 14:53:58,916 [main] INFO : User is Move to the Bottom
 2025-05-13 14:53:58,928 [main] INFO : User is Move to the Top
+2025-05-13 19:52:19,095 [main] INFO : Before click on Product LInk 
+2025-05-13 19:54:12,838 [main] INFO : Before click on Product LInk 
+2025-05-13 20:12:31,341 [main] INFO : Before click on Product LInk 
+2025-05-13 20:27:42,846 [main] ERROR: URl not find
+2025-05-13 20:29:37,377 [main] ERROR: URl not find
+2025-05-13 20:29:37,401 [main] ERROR: URl not find
+2025-05-13 20:29:37,416 [main] ERROR: URl not find
+2025-05-13 20:29:37,427 [main] ERROR: URl not find
+2025-05-13 20:29:37,439 [main] ERROR: URl not find
+2025-05-13 20:29:37,440 [main] INFO : Before click on Product LInk 
+2025-05-13 20:29:37,448 [main] ERROR: URl not find
+2025-05-13 20:29:37,458 [main] ERROR: URl not find
+2025-05-13 20:29:37,466 [main] ERROR: URl not find
+2025-05-13 20:29:37,474 [main] ERROR: URl not find
+2025-05-13 20:29:37,483 [main] ERROR: URl not find
+2025-05-13 20:29:37,491 [main] ERROR: URl not find
+2025-05-13 20:29:37,499 [main] ERROR: URl not find
+2025-05-13 20:29:37,508 [main] ERROR: URl not find
+2025-05-13 20:31:34,547 [main] INFO : Login successful
+2025-05-13 20:31:34,552 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 20:31:58,453 [main] INFO : Before click on Product LInk 
+2025-05-13 20:33:13,032 [main] INFO : User is Move to the Bottom
+2025-05-13 20:33:13,043 [main] INFO : User is Move to the Top
+2025-05-13 20:36:19,479 [main] INFO : Login successful
+2025-05-13 20:36:19,485 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 20:36:46,711 [main] INFO : Before click on Product LInk 
+2025-05-13 20:38:23,786 [main] INFO : User is Move to the Bottom
+2025-05-13 20:38:23,803 [main] INFO : User is Move to the Top
+2025-05-13 20:38:55,414 [main] INFO : Product successfulyy remove: 
+2025-05-13 20:44:37,707 [main] INFO : Login successful
+2025-05-13 20:44:37,715 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 20:47:32,475 [main] INFO : Login successful
+2025-05-13 20:47:32,480 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 20:48:34,451 [main] INFO : Product successfulyy remove: 
+2025-05-13 21:08:37,619 [main] INFO : Login successful
+2025-05-13 21:08:37,626 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 21:08:55,998 [main] INFO : Before click on Product LInk 
+2025-05-13 21:09:57,175 [main] INFO : User is Move to the Bottom
+2025-05-13 21:09:57,185 [main] INFO : User is Move to the Top
+2025-05-13 21:10:22,858 [main] INFO : Product successfulyy remove: 
+2025-05-13 21:13:27,208 [main] INFO : Login successful
+2025-05-13 21:13:27,213 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 21:13:45,131 [main] INFO : Before click on Product LInk 
+2025-05-13 21:14:45,830 [main] INFO : User is Move to the Bottom
+2025-05-13 21:14:45,840 [main] INFO : User is Move to the Top
+2025-05-13 21:15:12,323 [main] INFO : Product successfulyy remove: 
+2025-05-13 21:30:13,710 [main] INFO : Login successful
+2025-05-13 21:30:13,717 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 21:30:24,342 [main] INFO : Login successful
+2025-05-13 21:30:24,351 [main] INFO : Done LOgin successfully and print logger
+2025-05-13 21:30:33,280 [main] INFO : Before click on Product LInk 
+2025-05-13 21:30:45,655 [main] INFO : Before click on Product LInk 
+2025-05-13 21:31:45,080 [main] INFO : User is Move to the Bottom
+2025-05-13 21:31:45,184 [main] INFO : User is Move to the Top
+2025-05-13 21:31:57,690 [main] INFO : User is Move to the Bottom
+2025-05-13 21:31:57,701 [main] INFO : User is Move to the Top
+2025-05-13 21:32:14,172 [main] INFO : Product successfulyy remove: 
+2025-05-13 21:32:25,028 [main] INFO : Product successfulyy remove: 
+2025-05-14 10:04:34,454 [main] ERROR: URl not find
+2025-05-14 10:04:34,504 [main] ERROR: URl not find
+2025-05-14 10:04:34,536 [main] ERROR: URl not find
+2025-05-14 10:04:34,555 [main] ERROR: URl not find
+2025-05-14 10:04:34,578 [main] ERROR: URl not find
+2025-05-14 10:04:34,580 [main] INFO : Before click on Product LInk 
+2025-05-14 10:04:34,597 [main] ERROR: URl not find
+2025-05-14 10:04:34,621 [main] ERROR: URl not find
+2025-05-14 10:04:34,640 [main] ERROR: URl not find
+2025-05-14 10:04:34,693 [main] ERROR: URl not find
+2025-05-14 10:04:34,722 [main] ERROR: URl not find
+2025-05-14 10:04:34,736 [main] ERROR: URl not find
+2025-05-14 10:04:34,751 [main] ERROR: URl not find
+2025-05-14 10:04:34,767 [main] ERROR: URl not find
+2025-05-14 10:08:14,862 [main] ERROR: URl not find
+2025-05-14 10:08:40,326 [main] ERROR: URl not find
