@@ -2,32 +2,38 @@ package StepDefination;
 
 import java.nio.file.Paths;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.microsoft.playwright.Page;
 
 import Base.BaseTest;
+import Exception.LoginFailedException;
 import Utilities.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 
 public class Hooks {
 
 	String url = ConfigReader.get("baseurl");
-
-///*	public String test() {
-//		//.url..4
-//		return ".."; url="";
-//	}*/
+	private static final Logger logger = LogManager.getLogger(Hooks.class);
 	
 	@Before
 	public void setup() {
-		BaseTest.initializeBrowser();
+
 		if (url != null && url.trim().length() != 0) {
+			BaseTest.initializeBrowser();
 			BaseTest.getPage().navigate(url);
 		} else {
-			System.out.println("URL is not configured or unable to read the url.");
 			
-		//	System.err.println("Property '"+url+"' is undefined in config.properties!");
+			
+			// System.out.println("URL is not configured or unable to read the url.");
+			
+				logger.error("URl not find"+url);
+				System.err.println("URl is Empty so stop execution");
+				//System.exit(0);
 		}
 	}
 
